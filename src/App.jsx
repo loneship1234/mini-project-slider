@@ -10,7 +10,7 @@ function App() {
 
   const randomHandeler=()=>{
     const reviewLength=review.length
-    const randomNum=Math.floor(Math.random()*(reviewLength-0+1))+0
+    const randomNum=Math.floor(Math.random() * (reviewLength - 0 ) ) + 0;
     console.log(randomNum);
     setIndex(randomNum)
     
